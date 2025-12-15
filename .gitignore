@@ -1,0 +1,27 @@
+# General Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit specific
+.streamlit/
+
+# Database - IMPORTANT
+# We ignore the database so your local testing data doesn't 
+# overwrite the live data on the server, and vice versa.
+*.db
+contributions.db
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings (VS Code, etc)
+.vscode/
+.idea/
